@@ -19,7 +19,7 @@ li{
 }
 
 .all{
-    background: url(img/Circle.png) no-repeat center;
+    background: url(img/Circle2.png) no-repeat center;
     max-width: 175px;
     max-height: 175px;
     min-height: 175px;
@@ -27,7 +27,7 @@ li{
 }
 
 div{
-    background: url(img/tablet.png) no-repeat center;
+    background: url(img/tablet2.png) no-repeat center;
     min-height: 175px;
     min-width: 175px;
     max-width: 175px;
@@ -35,27 +35,27 @@ div{
 }
 
 li.all:hover{
-    background: url(img/Circle2.png) no-repeat center;
+    background: url(img/Circle.png) no-repeat center;
 }
 
 div.design:hover{
-    background: url(img/tablet2.png) no-repeat center;
+    background: url(img/tablet.png) no-repeat center;
 }
 
 div.customize{
-    background: url(img/cog2.png) no-repeat center;
-}
-
-div.customize:hover{
     background: url(img/cog.png) no-repeat center;
 }
 
+div.customize:hover{
+    background: url(img/cog2.png) no-repeat center;
+}
+
 div.fast{
-    background: url(img/dashboard2.png) no-repeat center;
+    background: url(img/dashboard.png) no-repeat center;
 }
 
 div.fast:hover{
-    background: url(img/dashboard.png) no-repeat center;
+    background: url(img/dashboard2.png) no-repeat center;
 }
 
 .name{
