@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-content: center;
+}
+
+li{
+    flex-direction: column;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.all{
+    background: url(img/Circle.png) no-repeat center;
+    max-width: 175px;
+    max-height: 175px;
+    min-height: 175px;
+    min-width: 175px;
+}
+
+div{
+    background: url(img/tablet.png) no-repeat center;
+    min-height: 175px;
+    min-width: 175px;
+    max-width: 175px;
+    max-height: 175px;
+}
+
+.all:hover{
+    background: url(img/Circle2.png) no-repeat center;
+}
+
+div.design:hover{
+    background: url(img/tablet2.png) no-repeat center;
+}
+
+div.customize{
+    background: url(img/cog2.png) no-repeat center;
+}
+
+div.customize:hover{
+    background: url(img/cog.png) no-repeat center;
+}
+
+d
+
+.name{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.description{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+
+color: #9D9D9D
+}
+
+
