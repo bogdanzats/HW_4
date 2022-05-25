@@ -34,7 +34,7 @@ div{
     max-height: 175px;
 }
 
-.all:hover{
+li.all:hover{
     background: url(img/Circle2.png) no-repeat center;
 }
 
@@ -50,7 +50,13 @@ div.customize:hover{
     background: url(img/cog.png) no-repeat center;
 }
 
-d
+div.fast{
+    background: url(img/dashboard2.png) no-repeat center;
+}
+
+div.fast:hover{
+    background: url(img/dashboard.png) no-repeat center;
+}
 
 .name{
     font-family: 'Source Sans Pro';
